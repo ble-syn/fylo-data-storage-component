@@ -6,23 +6,56 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <div class="container">
+    <div class="wrap">
+      <div class="left box">
+        <div class="left-item left-img">
+          <img class="" src="images/logo.svg" alt="logo">
+        </div>
+      
+        <div class="left-item">
+          <div class="files"><img class="icons" src="images/icon-document.svg" alt="icon-document"></div>
+          <div class="files"><img class="icons icon-2" src="images/icon-folder.svg" alt="folder"></div>
+          <div class="files"><img class="icons icon-2" src="images/icon-upload.svg" alt="upload"></div>
+        </div>
+      </div>
 
-  You’ve used 815 GB of your storage
+      <div class="right box">
+        <div class="right-item text">
+          <p>You’ve used <strong>815 GB</strong> of your storage</p>
+          <p class="chat">185 <span>GB Left</span></p>
+        </div>
 
-  185 GB Left
+        <div class="right-item loading">
+          <div class="pink-gradient">
+            <div class="white-dot"></div>
+          </div>
+        </div>
+        
+        <div class="right-item text">
+          <p><strong>0 GB</strong></p>
+          <p><strong> 1000 GB</strong></p>
+        </div>
+
+      </div>
+
+
+    </div>
+    
+  </div>
+
   
-  0 GB
-  1000 GB
+
+  
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
